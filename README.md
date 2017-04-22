@@ -1,2 +1,2 @@
 # python3-ds-auto
-Docker image for python3 + some data science libraries
+Python3 for data science based on https://hub.docker.com/_/python/

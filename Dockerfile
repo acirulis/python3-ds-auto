@@ -16,4 +16,4 @@ RUN apt-get update \
 #lets wait for matplotlib 2.0.1 before this will fixed
 ENV MPLBACKEND TkAgg
 
-ENTRYPOINT  ["bash"]
+ENTRYPOINT  []

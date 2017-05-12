@@ -1,12 +1,19 @@
 version: '2'
 services:
    db:
-      image: mysql
+      image: mysql:5.7
       ports:
         - "3306:3306"
       volumes:
         - dbvolume:/var/lib/mysql
       environment:
         - MYSQL_ROOT_PASSWORD=toor
+      networks:
+        - python
+      #network_mode: bridge
+
 volumes:
   dbvolume:
+
+networks:
+  python:

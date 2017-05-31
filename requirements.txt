@@ -7,3 +7,4 @@ mysqlclient
 theano
 tensorflow
 keras
+tweepy
